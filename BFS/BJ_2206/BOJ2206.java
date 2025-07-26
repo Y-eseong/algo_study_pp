@@ -1,10 +1,13 @@
+package algotest;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class BOJ2206 {
+public class test {
 
 	static int dx[] = {0, 1, 0, -1};
 	static int dy[] = {1, 0, -1, 0};
@@ -18,7 +21,8 @@ public class BOJ2206 {
 		int M = Integer.parseInt(st.nextToken());
 			
 		char arr[][] = new char[N][M];
-		boolean visited[][] = new boolean[N][M];
+		boolean visited[][][] = new boolean[N][M][2];
+		
 		for(int i = 0; i < N; i++)
 		{
 			String str = br.readLine();
@@ -27,15 +31,16 @@ public class BOJ2206 {
 				arr[i][j] = str.charAt(j);
 			}
 		}
-
 		int ans = BFS(arr, visited, N, M);
-		System.out.println(ans);
+
+		System.out.println(ans != Integer.MAX_VALUE ? ans : -1);
 	}
 	
-	static int BFS(char arr[][], boolean visited[][], int N, int M)
+	static int BFS(char arr[][], boolean visited[][][], int N, int M)
 	{
 		Queue<int[]> q = new LinkedList<>();
 		q.add(new int[] {0, 0, 1, 0});
+		visited[0][0][0] = true;
 		
 		int mincnt = Integer.MAX_VALUE;
 		while(!q.isEmpty())
@@ -57,21 +62,23 @@ public class BOJ2206 {
 				int nx = x + dx[dir];
 				int ny = y + dy[dir];
 				
-				if(nx >= 0 && ny >= 0 && nx < N && ny < M && !visited[nx][ny])
+				if(nx >= 0 && ny >= 0 && nx < N && ny < M)
 				{
-					if(arr[nx][ny] == '0')
+					char road = arr[nx][ny];
+					if(road == '0' && !visited[nx][ny][wall])
 					{
 						q.add(new int[] {nx,ny,cnt+1, wall});
-						visited[nx][ny] = true;
+						visited[nx][ny][wall] = true;
 					}
-					else if(arr[nx][ny] == '1' && wall == 0)
+					// 벽을 박살낼 기회가 있음.
+					else if(road == '1' && wall == 0 && !visited[nx][ny][1])
 					{
 						q.add(new int[] {nx,ny,cnt+1, 1});
-						visited[nx][ny] = true;
+						visited[nx][ny][1] = true;
 					}
 				}
 			}
 		}
-		return -1;
+		return mincnt;
 	}
 }
