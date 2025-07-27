@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
@@ -17,9 +16,9 @@ public class BOJ_1012 {
 		}
 	}
 	
-	static int M; // °¡·Î ±æÀÌ
-	static int N; // ¼¼·Î ±æÀÌ
-	static int K; // ½É¾îÁø ¹èÃßÀÇ ¼ö
+	static int M; // ê°€ë¡œ ê¸¸ì´
+	static int N; // ì„¸ë¡œ ê¸¸ì´
+	static int K; // ì‹¬ì–´ì§„ ë°°ì¶”ì˜ ìˆ˜
 	
 	static int dx[] = {1, 0, -1, 0};
 	static int dy[] = {0, 1, 0, -1};
@@ -38,9 +37,9 @@ public class BOJ_1012 {
 		for (int test_case = 0; test_case < T; test_case++) {
 			
 			st = new StringTokenizer(br.readLine());
-			M = Integer.parseInt(st.nextToken()); // °¡·Î ±æÀÌ
-			N = Integer.parseInt(st.nextToken()); // ¼¼·Î ±æÀÌ
-			K = Integer.parseInt(st.nextToken()); // ½É¾îÁø ¹èÃßÀÇ ¼ö
+			M = Integer.parseInt(st.nextToken()); // ê°€ë¡œ ê¸¸ì´
+			N = Integer.parseInt(st.nextToken()); // ì„¸ë¡œ ê¸¸ì´
+			K = Integer.parseInt(st.nextToken()); // ì‹¬ì–´ì§„ ë°°ì¶”ì˜ ìˆ˜
 			
 			arr = new int[N][M];
 			visited = new boolean[N][M];
@@ -48,7 +47,7 @@ public class BOJ_1012 {
 			q = new LinkedList<>();
 			
 			for (int i = 0; i < K; i++) {
-				st = new StringTokenizer(br.readLine()); // ÀÔ·Â: x, y
+				st = new StringTokenizer(br.readLine()); // ì…ë ¥: x, y
 				int x, y;
 				x = Integer.parseInt(st.nextToken());
 				y = Integer.parseInt(st.nextToken());
@@ -61,9 +60,9 @@ public class BOJ_1012 {
 			for (int i = 0; i < N; i++) {
 				for (int j = 0; j < M; j++) {
 					if (arr[i][j] == 1 && !visited[i][j]) {
-						q.add(new Pair(j, i)); // pair »ı¼ºÇÒ ¶§ À¯ÀÇ, »ı¼ºÀÚ·Î x, y ¼ø¼­·Î ¹ŞÀ½.
+						q.add(new Pair(j, i)); // pair ìƒì„±í•  ë•Œ ìœ ì˜, ìƒì„±ìë¡œ x, y ìˆœì„œë¡œ ë°›ìŒ.
 						visited[i][j] = true;
-						bfs(i, j); // bfs´Â for index¿Í °°ÀÌ y, x ¼øÀ¸·Î ³Ñ°ÜÁÜ.
+						bfs(i, j); // bfsëŠ” for indexì™€ ê°™ì´ y, x ìˆœìœ¼ë¡œ ë„˜ê²¨ì¤Œ.
 						bfsCnt++;
 					}
 				}
@@ -89,4 +88,3 @@ public class BOJ_1012 {
 		}
 	}
 }
-
