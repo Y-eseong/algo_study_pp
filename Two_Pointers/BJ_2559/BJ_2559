@@ -1,0 +1,63 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Main {
+	
+	public static int maxSum(int[] nums, int k) {
+		
+		//슬라이딩 윈도우의 값을 저장할 w
+		int w = 0;
+		//최대값을 출력할 answer
+		int answer = 0;
+		
+		//첫 번째 윈도우를 w에 저장
+		for (int i = 0; i < k; i++) {
+			w += nums[i];
+		}
+		//첫 번째 값이기 때문에 최대값이라 가정하고 answer에 저장
+		answer = w;
+		
+		//k 전까지 값을 더했으니, 이제 k부터 그 값을 더한다.
+		for (int i = k; i < nums.length; i++) {
+			//가장 맨 앞에 있는 값을 하나씩 제거하고
+			w -= nums[i-k];
+			//k의 값부터 시작해서 하나씩 더한다
+			w += nums[i];
+			
+			//마지막으로 answer의 값이 생성된 w와 기존 최대값인 answer와 비교
+			answer = Math.max(w, answer);
+			
+		}
+		
+                //최대값인 answer을 반환한다.
+		return answer;
+	}
+	
+	public static void main(String[] args) throws IOException {
+		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+		
+		String a = in.readLine();
+		String[] b = a.split(" ");
+		
+		int n = Integer.parseInt(b[0]);
+		int k = Integer.parseInt(b[1]);
+		
+		String c = in.readLine();
+		
+		String[] d = c.split(" ");
+		
+		
+		int[] arr = new int[d.length];
+		
+		for (int i = 0; i < d.length; i++) {
+			arr[i] = Integer.parseInt(d[i]);
+			
+		}
+		
+		//maxSum 메서드의 값 리턴하여 출력
+		System.out.println(maxSum(arr, k));
+		
+	}
+
+}
