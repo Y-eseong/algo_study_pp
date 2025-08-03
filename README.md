@@ -40,15 +40,19 @@ A형 원트 기원x2
 - https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md
 
 ### Week 2 문제
+시뮬레이션 추가문제 - https://solved.ac/problems/tags/implementation?sort=solved&direction=desc&page=5
+<추가문제>
+[게리멘더링](https://www.acmicpc.net/problem/17471)
+
   
 |     날짜     | 개념  | 알고리즘 문제 | 문제번호 |
 | :--------: | :-: | :-----: | :--: |
-| 8.4 월   |   시뮬레이션  |         |      |
-|         |   시뮬레이션  |         |      |
-|         |   시뮬레이션  |         |      |
-| 8.5 화  |   시뮬레이션  |         |      |
-|         |   시뮬레이션  |         |      |
-|         |   시뮬레이션  |         |      |
+| 8.4 월   |   시뮬레이션  |    [스타트와 링크](https://www.acmicpc.net/problem/14889)     |   14889   |
+|         |   시뮬레이션  |    [iSharp](https://www.acmicpc.net/problem/3568)     |   3568   |
+|         |   시뮬레이션  |     [거북이](https://www.acmicpc.net/problem/8911)    |   8911   |
+| 8.5 화  |   시뮬레이션  |   [치킨 배달](https://www.acmicpc.net/problem/15686)     |   15686   |
+|         |   시뮬레이션  |    [괄호의 값](https://www.acmicpc.net/problem/2504)     |   2504   |
+|         |   시뮬레이션  |      [Puyo Puyo](https://www.acmicpc.net/problem/11559)   |   11559   |
 | 8.6 수  |   정렬 1, 2  |         |      |
 |         |   정렬 1, 2  |         |      |
 |         |   정렬 1, 2  |         |      |
