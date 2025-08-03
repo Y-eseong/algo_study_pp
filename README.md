@@ -11,21 +11,21 @@ A형 원트 기원x2
 
 ### 스터디 일정 (임시로 짜봤으니 의견 있으시면 알려주세요)
 
-7/24 - 7/25 BFS
+1 BFS
 
-7/28 - 7/29 DFS (바킹독에 없으니 백준 문제집 적당한 거 골라서 선정)
+2 DFS (바킹독에 없으니 백준 문제집 적당한 거 골라서 선정)
 
-7/30 - 7/31 재귀
+3 재귀
 
-8/1 - 8/2 백트래킹
+4 백트래킹
 
-8/4 - 8/5 시뮬레이션
+5 시뮬레이션
 
-8/6 - 8/7 정렬 1, 2
+6 정렬 1, 2
 
-8/8 - 8/9 DP
+7 DP
 
-8/11 - 8/12 그리디
+8 그리디
 
 ### 깃
 
@@ -38,3 +38,96 @@ A형 원트 기원x2
 
 #### 바킹독 링크
 - https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md
+
+### Week 2 문제
+시뮬레이션 추가문제 - https://solved.ac/problems/tags/implementation?sort=solved&direction=desc&page=5
+
+
+<추가문제>
+[게리멘더링](https://www.acmicpc.net/problem/17471)
+
+  
+|     날짜     | 개념  | 알고리즘 문제 | 문제번호 |
+| :--------: | :-: | :-----: | :--: |
+| 8.4 월   |   시뮬레이션  |    [스타트와 링크](https://www.acmicpc.net/problem/14889)     |   14889   |
+|         |   시뮬레이션  |    [iSharp](https://www.acmicpc.net/problem/3568)     |   3568   |
+|         |   시뮬레이션  |     [거북이](https://www.acmicpc.net/problem/8911)    |   8911   |
+| 8.5 화  |   시뮬레이션  |   [치킨 배달](https://www.acmicpc.net/problem/15686)     |   15686   |
+|         |   시뮬레이션  |    [괄호의 값](https://www.acmicpc.net/problem/2504)     |   2504   |
+|         |   시뮬레이션  |      [Puyo Puyo](https://www.acmicpc.net/problem/11559)   |   11559   |
+| 8.6 수  |   정렬 1, 2  |     [수 정렬하기 2](https://www.acmicpc.net/problem/2751)    |   2751   |
+|         |   정렬 1, 2  |     [수 정렬하기 5](https://www.acmicpc.net/problem/15688)    |   15688   |
+|         |   정렬 1, 2  |     [나이순 정렬](https://www.acmicpc.net/problem/10814)    |   10814   |
+|  8.7 목  |   정렬 1, 2  |     [역원소 정렬](https://www.acmicpc.net/problem/5648)    |   5648   |
+|         |   정렬 1, 2  |     [빈도 정렬](https://www.acmicpc.net/problem/2910)    |   2910   |
+|         |   정렬 1, 2  |     [먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)    |   7795   |
+| 8.8 금  |   DP  |     [계단 오르기](https://www.acmicpc.net/problem/2579)    |   2579   |
+|         |   BFS  |     [벽 부수고 이동하기 2](https://www.acmicpc.net/problem/14442)    |   14442   |
+|         |   BFS  |    [말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)     |   1600   |
+| 8.9 토  |   BFS  |     [안전 영역](https://www.acmicpc.net/problem/2468)    |   2468   |
+|         |   BFS  |     [나이트의 이동](https://www.acmicpc.net/problem/7562)    |   7562   |
+|         |   BFS  |     [토마토](https://www.acmicpc.net/problem/7569)    |    7569  |
+
+
+### Week 3 문제
+
+
+<추가문제>
+
+https://www.acmicpc.net/workbook/view/2771
+
+> 시험과 비슷한 유형 문제들
+
+[퇴사](http://boj.kr/14501)
+
+[연산자 끼워넣기](http://boj.kr/14888)
+
+[스타트와 링크](http://boj.kr/14889)
+
+[경사로](http://boj.kr/14890)
+
+[톱니바퀴](http://boj.kr/14891)
+
+[나무 재테크](http://boj.kr/16235)
+
+[아기상어](http://boj.kr/16236)
+
+[캐슬 디펜스](http://boj.kr/17135)
+
+[배열 돌리기 4](http://boj.kr/17406)
+
+[게리맨더링](http://boj.kr/17471)
+
+[다리만들기 2](http://boj.kr/17472)
+
+
+  
+|     날짜     | 개념  | 알고리즘 문제 | 문제번호 |
+| :--------: | :-: | :-----: | :--: |
+| 8.11 월   |   그리디  |    [동전 0](https://www.acmicpc.net/problem/11047)     |    11047  |
+|         |   그리디  |     [로프](https://www.acmicpc.net/problem/2217)    |   2217   |
+|         |   그리디  |     [회의실 배정](https://www.acmicpc.net/problem/1931)    |   1931   |
+| 8.12 화  |   그리디  |    [선 긋기](https://www.acmicpc.net/problem/2170)     |   2170   |
+|         |   그리디  |     [강의실 배정](https://www.acmicpc.net/problem/11000)    |   11000   |
+|         |   그리디  |     [멀티탭 스케줄링](https://www.acmicpc.net/problem/1700)    |   1700   |
+| 8.13 수  |   A형 대비 문제  |    [보급로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15QRX6APsCFAYD)     |   1249   |
+|         |   A형 대비 문제  |    [다리 만들기2](https://www.acmicpc.net/problem/17472)     |   17472   |
+|         |   A형 대비 문제  |         |      |
+|  8.14 목  |   A형 대비 문제  |    [프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)     |   1767   |
+|         |   A형 대비 문제  |         |      |
+|         |   A형 대비 문제  |         |      |
+| 8.15 금  |   A형 대비 문제  |         |      |
+|         |   A형 대비 문제  |         |      |
+|         |   A형 대비 문제  |         |      |
+| 8.16 토  |   A형 대비 문제  |         |      |
+|         |   A형 대비 문제  |         |      |
+|         |   A형 대비 문제  |         |      |
+
+
+
+
+
+
+
+
+
