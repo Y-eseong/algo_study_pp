@@ -55,12 +55,12 @@ A형 원트 기원x2
 | 8.5 화  |   시뮬레이션  |   [치킨 배달](https://www.acmicpc.net/problem/15686)     |   15686   |
 |         |   시뮬레이션  |    [괄호의 값](https://www.acmicpc.net/problem/2504)     |   2504   |
 |         |   시뮬레이션  |      [Puyo Puyo](https://www.acmicpc.net/problem/11559)   |   11559   |
-| 8.6 수  |   정렬 1, 2  |         |      |
-|         |   정렬 1, 2  |         |      |
-|         |   정렬 1, 2  |         |      |
-|  8.7 목  |   정렬 1, 2  |         |      |
-|         |   정렬 1, 2  |         |      |
-|         |   정렬 1, 2  |         |      |
+| 8.6 수  |   정렬 1, 2  |     [수 정렬하기 2](https://www.acmicpc.net/problem/2751)    |   2751   |
+|         |   정렬 1, 2  |     [수 정렬하기 5](https://www.acmicpc.net/problem/15688)    |   15688   |
+|         |   정렬 1, 2  |     [나이순 정렬](https://www.acmicpc.net/problem/10814)    |   10814   |
+|  8.7 목  |   정렬 1, 2  |     [역원소 정렬](https://www.acmicpc.net/problem/5648)    |   5648   |
+|         |   정렬 1, 2  |     [빈도 정렬](https://www.acmicpc.net/problem/2910)    |   2910   |
+|         |   정렬 1, 2  |     [먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)    |   7795   |
 | 8.8 금  |   DP  |         |      |
 |         |   DP  |         |      |
 |         |   DP  |         |      |
