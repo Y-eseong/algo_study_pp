@@ -65,8 +65,8 @@ A형 원트 기원x2
 |         |   BFS  |     [벽 부수고 이동하기 2](https://www.acmicpc.net/problem/14442)    |   14442   |
 |         |   BFS  |    [말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)     |   1600   |
 | 8.9 토  |   BFS  |     [안전 영역](https://www.acmicpc.net/problem/2468)    |   2468   |
-|         |   BFS  |         |      |
-|         |   BFS  |         |      |
+|         |   BFS  |     [나이트의 이동](https://www.acmicpc.net/problem/7562)    |   7562   |
+|         |   BFS  |     [토마토](https://www.acmicpc.net/problem/7569)    |    7569  |
 
 
 ### Week 3 문제
@@ -76,8 +76,8 @@ A형 원트 기원x2
 | 8.11 월   |   그리디  |    [동전 0](https://www.acmicpc.net/problem/11047)     |    11047  |
 |         |   그리디  |     [로프](https://www.acmicpc.net/problem/2217)    |   2217   |
 |         |   그리디  |     [회의실 배정](https://www.acmicpc.net/problem/1931)    |   1931   |
-| 8.12 화  |   그리디  |         |      |
-|         |   그리디  |         |      |
+| 8.12 화  |   그리디  |    [선 긋기](https://www.acmicpc.net/problem/2170)     |   2170   |
+|         |   그리디  |     [강의실 배정](https://www.acmicpc.net/problem/11000)    |   11000   |
 |         |   그리디  |         |      |
 | 8.13 수  |   A형 대비 문제  |         |      |
 |         |   A형 대비 문제  |         |      |
