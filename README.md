@@ -62,9 +62,9 @@ A형 원트 기원x2
 |         |   정렬 1, 2  |     [빈도 정렬](https://www.acmicpc.net/problem/2910)    |   2910   |
 |         |   정렬 1, 2  |     [먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)    |   7795   |
 | 8.8 금  |   DP  |     [계단 오르기](https://www.acmicpc.net/problem/2579)    |   2579   |
-|         |   BFS  |         |      |
-|         |   BFS  |         |      |
-| 8.9 토  |   BFS  |         |      |
+|         |   BFS  |     [벽 부수고 이동하기 2](https://www.acmicpc.net/problem/14442)    |   14442   |
+|         |   BFS  |    [말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600)     |   1600   |
+| 8.9 토  |   BFS  |     [안전 영역](https://www.acmicpc.net/problem/2468)    |   2468   |
 |         |   BFS  |         |      |
 |         |   BFS  |         |      |
 
