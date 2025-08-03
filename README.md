@@ -38,3 +38,23 @@ A형 원트 기원x2
 
 #### 바킹독 링크
 - https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md
+
+### Week 2 문제
+- 4일 월
+
+
+- 5일 화
+
+  
+- 6일 수
+
+  
+- 7일 목
+
+  
+- 8일 금
+
+
+- 9일 토
+
+  
