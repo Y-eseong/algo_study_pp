@@ -70,6 +70,11 @@ A형 원트 기원x2
 
 
 ### Week 3 문제
+
+
+<추가문제>
+
+https://www.acmicpc.net/workbook/view/2771
   
 |     날짜     | 개념  | 알고리즘 문제 | 문제번호 |
 | :--------: | :-: | :-----: | :--: |
@@ -79,10 +84,10 @@ A형 원트 기원x2
 | 8.12 화  |   그리디  |    [선 긋기](https://www.acmicpc.net/problem/2170)     |   2170   |
 |         |   그리디  |     [강의실 배정](https://www.acmicpc.net/problem/11000)    |   11000   |
 |         |   그리디  |     [멀티탭 스케줄링](https://www.acmicpc.net/problem/1700)    |   1700   |
-| 8.13 수  |   A형 대비 문제  |         |      |
+| 8.13 수  |   A형 대비 문제  |    [보급로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15QRX6APsCFAYD)     |   1249   |
+|         |   A형 대비 문제  |    [다리 만들기2](https://www.acmicpc.net/problem/17472)     |   17472   |
 |         |   A형 대비 문제  |         |      |
-|         |   A형 대비 문제  |         |      |
-|  8.14 목  |   A형 대비 문제  |         |      |
+|  8.14 목  |   A형 대비 문제  |    [프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)     |   1767   |
 |         |   A형 대비 문제  |         |      |
 |         |   A형 대비 문제  |         |      |
 | 8.15 금  |   A형 대비 문제  |         |      |
