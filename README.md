@@ -78,7 +78,7 @@ A형 원트 기원x2
 |         |   그리디  |     [회의실 배정](https://www.acmicpc.net/problem/1931)    |   1931   |
 | 8.12 화  |   그리디  |    [선 긋기](https://www.acmicpc.net/problem/2170)     |   2170   |
 |         |   그리디  |     [강의실 배정](https://www.acmicpc.net/problem/11000)    |   11000   |
-|         |   그리디  |         |      |
+|         |   그리디  |     [멀티탭 스케줄링](https://www.acmicpc.net/problem/1700)    |   1700   |
 | 8.13 수  |   A형 대비 문제  |         |      |
 |         |   A형 대비 문제  |         |      |
 |         |   A형 대비 문제  |         |      |
