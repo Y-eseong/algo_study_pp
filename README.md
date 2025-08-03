@@ -61,21 +61,21 @@ A형 원트 기원x2
 |  8.7 목  |   정렬 1, 2  |     [역원소 정렬](https://www.acmicpc.net/problem/5648)    |   5648   |
 |         |   정렬 1, 2  |     [빈도 정렬](https://www.acmicpc.net/problem/2910)    |   2910   |
 |         |   정렬 1, 2  |     [먹을 것인가 먹힐 것인가](https://www.acmicpc.net/problem/7795)    |   7795   |
-| 8.8 금  |   DP  |         |      |
-|         |   DP  |         |      |
-|         |   DP  |         |      |
-| 8.9 토  |   DP  |         |      |
-|         |   DP  |         |      |
-|         |   DP  |         |      |
+| 8.8 금  |   DP  |     [계단 오르기](https://www.acmicpc.net/problem/2579)    |   2579   |
+|         |   BFS  |         |      |
+|         |   BFS  |         |      |
+| 8.9 토  |   BFS  |         |      |
+|         |   BFS  |         |      |
+|         |   BFS  |         |      |
 
 
 ### Week 3 문제
   
 |     날짜     | 개념  | 알고리즘 문제 | 문제번호 |
 | :--------: | :-: | :-----: | :--: |
-| 8.11 월   |   그리디  |         |      |
-|         |   그리디  |         |      |
-|         |   그리디  |         |      |
+| 8.11 월   |   그리디  |    [동전 0](https://www.acmicpc.net/problem/11047)     |    11047  |
+|         |   그리디  |     [로프](https://www.acmicpc.net/problem/2217)    |   2217   |
+|         |   그리디  |     [회의실 배정](https://www.acmicpc.net/problem/1931)    |   1931   |
 | 8.12 화  |   그리디  |         |      |
 |         |   그리디  |         |      |
 |         |   그리디  |         |      |
