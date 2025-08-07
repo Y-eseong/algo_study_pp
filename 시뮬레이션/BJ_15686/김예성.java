@@ -2,17 +2,17 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-	
+
 	static class Pair{
 		int x;
 		int y;
-		
+
 		public Pair(int x, int y){
 			this.x = x;
 			this.y = y;
 		}
 	}
-	
+
 	static int n, m;
 	static int[] arr;
 	static int[][] map;
@@ -22,7 +22,7 @@ public class Main {
 	static ArrayList<Pair> chicken = new ArrayList<>();
 	static ArrayList<Pair> home = new ArrayList<>();
 	static StringTokenizer st;
-	
+
 	public static void main(String[] args) throws IOException{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb = new StringBuilder();
@@ -30,7 +30,7 @@ public class Main {
 		n = Integer.parseInt(in[0]);
 		m = Integer.parseInt(in[1]);
 		map = new int[n][n];
-	
+
 		for(int i=0; i<n; i++) {
 			st = new StringTokenizer(br.readLine());
 			for(int j=0; j<n; j++) {
@@ -41,16 +41,16 @@ public class Main {
 					home.add(new Pair(i, j));
 			}
 		}
-		
+
 		len = chicken.size();
 		arr = new int[m];
 		visited = new boolean[len];
-		backTracking(0);
+		backTracking(0, 0);
 		sb.append(distance);
 		System.out.println(sb);
 	}
-	
-	static void backTracking(int k) {
+
+	static void backTracking(int k, int st) {
 		if(k == m) {
 			int sum =0;
 			for(Pair t : home) {
@@ -65,14 +65,13 @@ public class Main {
 			distance = Math.min(distance, sum);
 			return;
 		}
-		for(int i=0; i<len; i++) {
+		for(int i=st; i<len; i++) {
 			if(!visited[i]) {
 				arr[k] = i;
 				visited[i] = true;
-				backTracking(k+1);
+				backTracking(k+1, i);
 				visited[i] = false;
 			}
 		}
 	}
-	
 }
