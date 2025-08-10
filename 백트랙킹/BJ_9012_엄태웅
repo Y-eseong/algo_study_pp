@@ -1,0 +1,68 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Stack;
+
+public class Main {
+	public static void main(String[] args) throws IOException {
+		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+		
+		int t = Integer.parseInt(in.readLine());
+		
+		for (int i = 0; i < t; i++) {
+			String[] arr = in.readLine().split("");
+			Stack<String> stack = new Stack<>();
+			stack.push(arr[0]);
+			for (int j = 1; j < arr.length; j++) {
+				if (!stack.isEmpty()) {
+					String x = stack.peek();
+					if (x.equals("(") && arr[j].equals(")")) {
+						stack.pop();
+					} else {
+						stack.push(arr[j]);
+					}
+				} else {stack.push(arr[j]);}
+			}
+			if (stack.isEmpty()) {
+				System.out.println("YES");
+			} else {System.out.println("NO");}
+		}
+		
+		
+	}
+
+}
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Stack;
+
+public class Main {
+	public static void main(String[] args) throws IOException {
+		BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+		
+		int t = Integer.parseInt(in.readLine());
+		
+		for (int i = 0; i < t; i++) {
+			String[] arr = in.readLine().split("");
+			Stack<String> stack = new Stack<>();
+			stack.push(arr[0]);
+			for (int j = 1; j < arr.length; j++) {
+				if (!stack.isEmpty()) {
+					String x = stack.peek();
+					if (x.equals("(") && arr[j].equals(")")) {
+						stack.pop();
+					} else {
+						stack.push(arr[j]);
+					}
+				} else {stack.push(arr[j]);}
+			}
+			if (stack.isEmpty()) {
+				System.out.println("YES");
+			} else {System.out.println("NO");}
+		}
+		
+		
+	}
+
+}
