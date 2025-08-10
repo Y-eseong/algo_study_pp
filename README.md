@@ -112,22 +112,41 @@ https://www.acmicpc.net/workbook/view/2771
 |         |   그리디  |     [멀티탭 스케줄링](https://www.acmicpc.net/problem/1700)    |   1700   |
 | 8.13 수  |   A형 대비 문제  |    [보급로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15QRX6APsCFAYD)     |   1249   |
 |         |   A형 대비 문제  |    [다리 만들기2](https://www.acmicpc.net/problem/17472)     |   17472   |
-|         |   A형 대비 문제  |         |      |
+|         |   A형 대비 문제  |     [장훈이의 높은 선반](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw)    |   1486   |
 |  8.14 목  |   A형 대비 문제  |    [프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)     |   1767   |
+|         |   A형 대비 문제  |     [핀볼 게임](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo)    |   5650   |
 |         |   A형 대비 문제  |         |      |
+| 8.15 금  |   A형 대비 문제  |     [보호 필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu)    |   2112   |
+|         |   A형 대비 문제  |    [준환이의 양팔저울](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWAe7XSKfUUDFAUw)     |   3234   |
 |         |   A형 대비 문제  |         |      |
-| 8.15 금  |   A형 대비 문제  |         |      |
-|         |   A형 대비 문제  |         |      |
-|         |   A형 대비 문제  |         |      |
-| 8.16 토  |   A형 대비 문제  |         |      |
-|         |   A형 대비 문제  |         |      |
+| 8.16 토  |   A형 대비 문제  |    [정사각형 방](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5LtJYKDzsDFAXc)     |   1861   |
+|         |   A형 대비 문제  |     [장훈이의 높은 선반](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV2b7Yf6ABcBBASw)    |   1486   |
 |         |   A형 대비 문제  |         |      |
 
 
 
+### 지난 문제들
 
-
-
+|     날짜     | 개념  | 알고리즘 문제 | 문제번호 |
+| :--------: | :-: | :-----: | :--: |
+|    |   BFS  |    [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)     |    2206  |
+|         |   BFS  |     [유기농 배추](https://www.acmicpc.net/problem/1012)    |   1012   |
+|         |   BFS  |     [DFS와 BFS](https://www.acmicpc.net/problem/1260)    |   1260   |
+|   |   BFS  |    [선 긋기](https://www.acmicpc.net/problem/2170)     |   2170   |
+|         |   BFS  |     [단지번호붙이기](https://www.acmicpc.net/problem/2667)    |   2667   |
+|         |   BFS  |     [미로 탐색](https://www.acmicpc.net/problem/2178)    |   2178   |
+|   |   BFS  |    [숫자 정사각형](https://www.acmicpc.net/problem/1051)     |   1051   |
+|         |   BFS  |    [다리 만들기2](https://www.acmicpc.net/problem/17472)     |   17472   |
+|         |   BFS  |         |      |
+|    |   BFS  |    [프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)     |   1767   |
+|         |   BFS  |         |      |
+|         |   BFS  |         |      |
+|   |   BFS  |         |      |
+|         |   BFS  |         |      |
+|         |   BFS  |         |      |
+|   |   BFS  |         |      |
+|         |   BFS  |         |      |
+|         |   BFS  |         |      |
 
 
 
