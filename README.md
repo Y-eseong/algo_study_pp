@@ -64,7 +64,7 @@ A형 원트 기원x2
 |         |     |     [1932](https://www.acmicpc.net/problem/1932)    |      |
 |         |     |    [2458](https://www.acmicpc.net/problem/2458)     |      |
 |         |     |     [10159](https://www.acmicpc.net/problem/10159)    |      |
-|     9.13     |     |     [2660](https://www.acmicpc.net/problem/2660)    |      |
+|     9.13 토    |     |     [2660](https://www.acmicpc.net/problem/2660)    |      |
 |         |     |    [2610](https://www.acmicpc.net/problem/2610)     |      |
 |         |     |     []()    |      |
 |         |     |     []()    |      |
