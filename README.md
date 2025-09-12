@@ -40,6 +40,36 @@ A형 원트 기원x2
 #### 바킹독 링크
 - https://github.com/encrypted-def/basic-algo-lecture/blob/master/workbook.md
 
+## 0915 과평대비 문제
+
+|     날짜     | 개념  | 알고리즘 문제 | 문제번호 |
+| :--------: | :-: | :-----: | :--: |
+|    9.8 월     |     |     [2482](https://www.acmicpc.net/problem/2482)    |      |
+|         |     |    [15486](https://www.acmicpc.net/problem/15486)     |      |
+|         |     |    [2665](https://www.acmicpc.net/problem/2665)     |      |
+|         |     |     [2579](https://www.acmicpc.net/problem/2579)    |      |
+|    9.9 화     |     |    [10423](https://www.acmicpc.net/problem/10423)     |      |
+|         |     |     [2011](https://www.acmicpc.net/problem/2011)    |      |
+|         |     |     [2098](https://www.acmicpc.net/problem/2098)    |      |
+|         |     |    [1931](https://www.acmicpc.net/problem/1931)     |      |
+|    9.10 수     |     |     [1183](https://jungol.co.kr/problem/1183)    |      |
+|         |     |     [13302](https://www.acmicpc.net/problem/13302)    |      |
+|         |     |     [2662](https://www.acmicpc.net/problem/2662)    |      |
+|         |     |     [6029](https://www.acmicpc.net/workbook/view/6029)    |      |
+|    9.11 목     |     |     [2307](https://www.acmicpc.net/problem/2307)    |      |
+|         |     |    [20046](https://www.acmicpc.net/problem/20046)     |      |
+|         |     |     [4386](https://www.acmicpc.net/problem/4386)    |      |
+|         |     |    [14863](https://www.acmicpc.net/problem/14863)     |      |
+|   9.12 금      |     |     [9205](https://www.acmicpc.net/problem/9205)    |      |
+|         |     |     [1932](https://www.acmicpc.net/problem/1932)    |      |
+|         |     |    [2458](https://www.acmicpc.net/problem/2458)     |      |
+|         |     |     [10159](https://www.acmicpc.net/problem/10159)    |      |
+|     9.13 토    |     |     [2660](https://www.acmicpc.net/problem/2660)    |      |
+|         |     |    [2610](https://www.acmicpc.net/problem/2610)     |      |
+|         |     |     [9372](https://www.acmicpc.net/problem/9372)    |      |
+|         |     |     [16202](https://www.acmicpc.net/problem/16202)    |      |
+|         |     |    [1753](https://www.acmicpc.net/problem/1753)     |      |
+|         |     |     [1504](https://www.acmicpc.net/problem/1504)    |      |
 
 ## 지난 문제들
 
