@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class 별자리_만들기 {
 	static class Edge implements Comparable<Edge> {
 		int from, to;
 		double w;
