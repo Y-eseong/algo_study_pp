@@ -66,17 +66,10 @@ A형 원트 기원x2
 |         |     |     [10159](https://www.acmicpc.net/problem/10159)    |      |
 |     9.13 토    |     |     [2660](https://www.acmicpc.net/problem/2660)    |      |
 |         |     |    [2610](https://www.acmicpc.net/problem/2610)     |      |
-|         |     |     []()    |      |
-|         |     |     []()    |      |
-|         |     |    []()     |      |
-|         |     |     []()    |      |
-|         |     |     []()    |      |
-|         |     |    []()     |      |
-|         |     |     []()    |      |
-|         |     |     []()    |      |
-|         |     |    []()     |      |
-|         |     |     []()    |      |
-|         |     |     []()    |      |
+|         |     |     [9372](https://www.acmicpc.net/problem/9372)    |      |
+|         |     |     [16202](https://www.acmicpc.net/problem/16202)    |      |
+|         |     |    [1753](https://www.acmicpc.net/problem/1753)     |      |
+|         |     |     [1504](https://www.acmicpc.net/problem/1504)    |      |
 
 ## 지난 문제들
 
