@@ -73,6 +73,11 @@ A형 원트 기원x2
 
 ## 지난 문제들
 
+<details>
+<summary>문제 보기</summary>
+<div markdown="1">
+
+
 |     날짜     | 개념  | 알고리즘 문제 | 문제번호 |
 | :--------: | :-: | :-----: | :--: |
 |    |   BFS  |    [벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)     |    2206  |
@@ -162,3 +167,7 @@ https://www.acmicpc.net/workbook/view/2771
 [게리맨더링](http://boj.kr/17471)
 
 [다리만들기 2](http://boj.kr/17472)
+
+
+</div>
+</details>
